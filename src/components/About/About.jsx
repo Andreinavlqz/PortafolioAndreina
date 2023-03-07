@@ -12,7 +12,7 @@ function About() {
         </Col>
         <Col id="second-section-about-text">
             <h2>SOBRE MI</h2>
-            <p>Hi, I'm Andreina Velazquez.Currently I design, new projects and web application sites, both on the client side (Front-end, UX / UI) and on the server side (Back-end). Continuously learning and acquiring new skills based on current and future demands and technological trends in the field of design and development of web applications in general. Passionate about the work I do, offering and contributing my knowledge, skills and experience, as well as new ideas, solutions, customization and quality monitoring of the client and his objective in each project.</p>
+            <p>Hola soy Andreina Velazquez. Actualmente diseño, nuevos proyectos y sitios de aplicaciones web, tanto del lado del cliente (Front-end, UX/UI) como del lado del servidor (Back-end). Continuamente aprendiendo y adquiriendo nuevas habilidades en base a las demandas actuales y futuras y las tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general. Apasionado por el trabajo que realizo, ofreciendo y aportando mis conocimientos, habilidades y experiencia, así como nuevas ideas, soluciones, personalización y seguimiento de calidad del cliente y su objetivo en cada proyecto.</p>
             <a href="https://drive.google.com/file/d/10GTypCcNoGlaAGfVcn9xUsOzUj_F0hDx/view?usp=sharing" target="_blank"><button>DOWNLOAD CV</button></a>
         </Col>
       </Row>

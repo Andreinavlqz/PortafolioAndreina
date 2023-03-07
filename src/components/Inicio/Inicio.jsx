@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import aritos from "../../images/aritos.png"
-import programadorinit from "../../images/inicioprogramator.svg"
+
+import programadorinit from "../../images/chica-programando-removebg-preview.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 function Inicio() {
   
@@ -12,16 +12,16 @@ function Inicio() {
         <Row>
           <Col id="inicio-first-col">
               <div className='Inicio-Tittles'>
-                  <img src={aritos} className='aritos' id="arito1"></img>
+                 
                   <p className='hola-tittle'>Hola!</p>
                   <h2>Soy Andreina Velazquez</h2>
                   <p className='frontend-tittle'>Desarrolladora Full stack</p>
 
                   <Link activeClass="active" to="header-contact" spy={true} smooth={false} offset={-100} duration={500}>
-                    <button className="Contact-butt">CONTACTO</button>
+                    <button className="Contact-butt">CONTACTACTAME</button>
                   </Link>
                   
-                  <img src={aritos} className='aritos' id="arito2"></img>
+                  
               </div>
           </Col>
           <Col id="inicio-second-col">
