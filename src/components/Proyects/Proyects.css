@@ -1,0 +1,13 @@
+
+.cards-generate-map{
+  display: grid;
+  grid-template-columns: 
+  repeat(auto-fit, 
+  minmax(360px, 1fr)
+  );
+  place-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,76 @@
+#NavBar-nav{
+    background-color: rgb(36, 38, 41);
+    margin-bottom: 0rem!important;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+#NavBar-colors a{
+    color: #FFFFFE;
+    letter-spacing: 1.2px;
+    margin-left: 0.5rem;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+    border-radius: 30%;
+    margin-left: 0.2rem;
+    margin-right: 0.15rem;
+}
+#NavBar-colors > .active{
+    text-decoration: none;
+    border-bottom: 3px solid #7F5AF0;
+    border-top: 3px solid #7F5AF0;
+    font-weight: 600;
+}
+#NavBar-colors a:hover{
+    color:#7F5AF0;
+}
+#Header-image{
+    width: 100%;
+    margin-top:3.5rem;
+}
+#offcanvas-body{
+    background-color: rgb(36, 38, 41);
+    text-align: center;
+}
+#offcanvas-body-act{
+    background-color: #39395c;
+
+}
+#butt-nav{
+    border: 0px;
+}
+.header-contact:hover{
+    transform: scale(1.1);
+}
+/* OFF CANVAS ICONS */
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("../../images/hamburguer.png");
+    width: 60px;
+    height: 47px;
+}
+.navbar-toggler{
+    padding: 0!important;
+    margin: 0!important;
+}
+.btn-close{
+    background-image: url("../../images/hamburguer-close.png")!important;
+    background-size: cover!important;
+    width: 25px!important;
+    height: 25px!important;
+}
+/* .Linea-editable{
+    border-bottom: 4px solid #7F5AF0;
+} */
+
+@media (min-width: 1400px){
+    #Header-image{
+        margin-top:3.1rem;
+    }
+}
+@media (min-width: 375px) {
+    .modal-header{
+        align-items: flex-start!important;
+    }
+    .modal-header .btn-close{
+        margin: 0!important;
+    }
+}

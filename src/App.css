@@ -1,0 +1,27 @@
+body{
+  background: linear-gradient(blue, 10%, pink);
+}
+html,body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#Habilities,#Proyects,#Contacto{
+  text-align: center;
+  color: white;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+body::-webkit-scrollbar{
+  width: 8px;
+  background-color: rgb(36, 38, 41);
+  border: 1px solid #7F5AF0;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #7F5AF0;
+  border: 1px solid #7F5AF0;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 100px;
+}
